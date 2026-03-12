@@ -1,0 +1,7 @@
+Clion:
+    Robusta, com um bom debugger, com licensa para estudantes
+    https://www.jetbrains.com/clion/promo/?source=google&medium=cpc&campaign=AMER_en_BR_Clion_Branded&term=clion&content=772650038828&gad_source=1&gad_campaignid=11964010495&gbraid=0AAAAADloJzg6A3tt8XzMIygEtbFnvoCR4&gclid=CjwKCAjwyMnNBhBNEiwA-Kcgu0y_UTMIJeWBb8RokKqMD0k0qXunDcjFxaWeL9wwJcgZe8ErKU_VYBoC7kgQAvD_BwE
+
+VSCode:
+    Simples, de graça, extremamente popular
+    https://code.visualstudio.com/

@@ -1,0 +1,21 @@
+Como criar um script c++ e rodá-lo pelo explorador de arquivos (Linux)?
+
+1- Abra uma pastq qualquer
+    Apenas clique duas vezes nela, ou vá até ela pelo explorador de arquivos do linux
+
+2- Criar o arquivo
+    Clique com o botão direito dentro da pasta e crie um novo arquivo com extensão .cpp
+    Exemplo: hello_world.cpp
+
+3- Editar o arquivo
+    Clique duas vezes no arquivo criado e cole o conteúdo do hello_world.cpp (arquivo presente no repositório) nele.
+
+4- Compilar o script
+    Para compilar o script, vamos utilizar o g++, com o padrão g++ <caminho_ate_o_script> -o <arquivo_binario_resultante>
+    Exemplo: g++ ./hello_world.cpp -o hello_world
+
+    Isso gerará um arquivo executável chamado hello_world (ou o nome que você colocou em <arquivo_binario_resultante>)
+
+5- Executar
+    Para executar o script, basta rodar ./<arquivo_binario_resultante>
+

@@ -1,0 +1,38 @@
+Como criar um script c++ e rodá-lo diretamente pelo terminal (Linux)?
+
+1- Abrir o terminal
+    Aperte Crtl+Alt+T (isso abrirá o terminal)
+    Ou pesquise no, menu iniciar, "Terminal"
+
+2- Criar o arquivo
+    Em seu terminal, mude para o diretório que você quiser com cd <localizacao_da_pasta>
+    Exemplo: cd ~/Documents/
+
+    Agora, para criar o arquivo, utilize o comando touch <nome_do_arquivo>
+    Exemplo: touch hello_world.cpp
+    ATENÇÃO: coloque a extenção .cpp
+
+3- Editar o arquivo
+    Existem infinitas maneiras de alterar um arquivo. Aqui, utilizaremos o nano <caminho_do_arquivo>
+    Exemplo: nano ./hello_world.cpp
+
+    Isso abrirá uma tela de edição do conteúdo do arquivo. Parece confuso e assustador de primeira,
+    mas não se desespere!
+
+    Dentro dele, coloque o conteúdo do arquivo hello_world.cpp (recomendo digitar tudo)
+
+    Assim, que digitar tudo, aperte Ctrl+X
+    Será apresentado uma pergunta: "Save modified buffer?", aperte Y no teclado
+    Após isso, será apresentado a frase: "File Name to Write: ./<nome_do_seu_arquivo>", aperte Enter
+
+    Pronto! Você editou um arquivo direto pelo terminal!
+
+4- Compilar o script
+    Para compilar o script, vamos utilizar o g++, com o padrão g++ <caminho_ate_o_script> -o <arquivo_binario_resultante>
+    Exemplo: g++ ./hello_world.cpp -o hello_world
+
+    Isso gerará um arquivo executável chamado hello_world (ou o nome que você colocou em <arquivo_binario_resultante>)
+
+5- Executar
+    Para executar o script, basta rodar ./<arquivo_binario_resultante>
+
