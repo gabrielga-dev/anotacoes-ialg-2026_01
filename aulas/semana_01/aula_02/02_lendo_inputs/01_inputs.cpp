@@ -5,7 +5,7 @@ using namespace std;
 //cout  -> printa
 //cin   -> recebe
 int main() {
-    int idade;
+    int idade = 0;
     string nome;
     string hobby;
     double valorPi;
