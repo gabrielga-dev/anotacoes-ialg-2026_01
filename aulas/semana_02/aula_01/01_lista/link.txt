@@ -1,0 +1,5 @@
+https://dredd.dac.ufla.br/testProblems.php?t=2499
+
+#include <cmath>
+pow(x,y) = x ^ y
+sqrt(x)
