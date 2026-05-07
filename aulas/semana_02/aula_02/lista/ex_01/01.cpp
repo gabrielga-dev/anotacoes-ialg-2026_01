@@ -5,7 +5,7 @@
 using namespace std;
 
 int main () {
-    ifstream entrada("entrada.txt");
+    ifstream entrada("entradas.txt");
     ofstream saida("saida.txt");
 
     double alturaDegrauCm;
@@ -61,7 +61,7 @@ int main () {
 
 
 int test() {
-    ifstream entrada("entrada.txt");
+    ifstream entrada("entradas.txt");
     ofstream saida("degraus.txt");
 
     double alturaDegrauCm;
