@@ -21,8 +21,11 @@ struct lista_de_numeros {
 
 void adiciona_numero(lista_de_numeros * lista, int numero) {
     int * novo_vetor = new int[(*lista).quantidade + 1];
-    for (int i = 0; i < (*lista).quantidade; i++) {
-        novo_vetor[i] = (*lista).numeros[i];
+
+    if ((*lista).numeros != nullptr) {
+        for (int i = 0; i < (*lista).quantidade; i++) {
+            novo_vetor[i] = (*lista).numeros[i];
+        }
     }
     novo_vetor[(*lista).quantidade] = numero;
     (*lista).quantidade++;
@@ -33,7 +36,7 @@ void adiciona_numero(lista_de_numeros * lista, int numero) {
 int main() {
     lista_de_numeros lista;
     lista.quantidade = 0;
-    lista.numeros = new int [1];
+    lista.numeros = nullptr;
 
     int novo_numero;
     cin >> novo_numero;
